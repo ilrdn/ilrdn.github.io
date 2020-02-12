@@ -25,19 +25,35 @@
                 </li>
                 <li>
                     <div class="nav-btn">
-                        <a href=""><img class="search" src="/img/search-solid.svg" alt=""></a>
+                        <div class="search-btn" onclick="openSearch()" id="searchBtn"></div>
                         <a href=""><img class="phone" src="/img/phone-alt-solid.svg" alt=""></a>
                         <a href=""><img class="inst" src="/img/instagram-brands.svg" alt=""></a>
                         <a href=""><img class="youtube" src="/img/youtube-brands.svg" alt=""></a>
+                        <span class="menu-open" id="menu">
+                            <ul>
+                                <li><a href="/index.html">Главная</a></li>
+                                <li><a href="">Марки</a></li>
+                                <li><a href="">Дилеры</a></li>
+                                <li><a href="">Услуги</a></li>
+                                <li><a href="">О компании</a></li>
+                                <li><a href="">Контакты</a></li>
+                            </ul>
+                        </span>
                     </div>
                 </li>
                 <li>
-                    <div class="nav-menu">
-                        <div class="bars"></div>
+                    <div class="nav-menu" onclick="openMenu()">
+                        <div class="bars" id="menuBtn"></div>
                     </div>
                 </li>
             </ul>
         </div>
+        <span class="search-open" id="search">
+            <div class="search-block">
+                <input type="text" placeholder="введите ваш запрос">
+                <a>Найти</a>
+            </div>
+        </span>
     </header>
     <section class="banner-bg">
         <div class="main-block">
@@ -205,6 +221,7 @@
             <a class="a-big" href="">Подписаться</a>
         </div>
     </section>
-    <script href="/js/script.js"></script>
+
+    <script src="/js/script.js"></script>
 </body>
 </html>
