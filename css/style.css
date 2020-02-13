@@ -467,4 +467,28 @@ section{
     border-radius: 5px;
     background-color: white;
     padding: 24px;
+    overflow: hidden;
+}
+.model-block-left{
+    float: left;
+    position: relative;
+    width: 292px;
+}
+.model-block-left .discount{
+    top: -24px;
+}
+.model-block-left img{
+    margin: 16px;
+    width: 268px;
+}
+.model-block-right{
+    float: left;
+    width: 630px;
+}
+.model-block-left h3{
+    font-family: "Montserrat-Bold";
+    margin: 0;
+}
+.model-block-left span{
+    color: #7c7c7c;
 }
