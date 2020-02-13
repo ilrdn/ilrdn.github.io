@@ -155,13 +155,14 @@ section{
     width: 500px;
     height: 220px;
     margin-top: 24px;
+    margin-right: 24px;
     background-color: white;
     overflow: hidden;
     border-radius: 5px;
     color: black !important;
 }
-.fb-wrap :nth-child(odd){
-    margin-right: 24px;
+.fb-wrap :nth-child(2n){
+    margin-right: 0px !important;
 }
 .fb-col-1{
     display: block;
@@ -172,11 +173,11 @@ section{
 .fb-col-2{
     display: block;
     float: left;
-    width: 256px;
+    width: 234px;
     height: 70%;
-    padding-top: 10px;
     color: black;
     font-size: 14px;
+    margin-left: 24px;
 }
 .fb-col-2 h2{
     font-family: "Montserrat-bold";
@@ -237,35 +238,33 @@ section{
     margin-right: 230px;
 }
 .nav-number{
-    margin-right: 130px;
+    margin-right: 113px;
     transform: translateY(-15px);
 }
 .nav-btn{
     height: 50px;
     margin-right: 61px;
     transform: translateY(-20px);
-    position: relative;
+    /* position: relative; */
     display: flex;
 }
 .nav-btn a, div{
     margin-bottom: 12px;
     margin-right: 10px;
 }
-.nav-btn img{
+/* .nav-btn img{
     filter: invert(100%);
-}
+} */
 .menu-open{
     display: none;
     position: absolute;
     background-color: black;
-    font-size: 26px;
+    font-size: 20px;
     list-style-type: none;
-    width: 300px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 250px;
     padding-left: 50px;
-    top: 60px;
-    right: -110px;
+    top: 70px;
+    right: 230px;
 }
 .menu-open a{
     text-decoration: none;
@@ -277,7 +276,7 @@ section{
 }
 .menu-open ul li{
     display: block;
-    margin-top: 20px;
+    margin-top: 6px;
 }
 .search{
     height: 30px;
@@ -285,32 +284,50 @@ section{
 }
 .phone{
     height: 30px;
+    width: 30px;
+    background-image: url(/img/icons/phone.png);
+    background-size: cover;
+    background-position: center;
 }
 .inst{
-    height: 33px;
-    transform: translateY(-1px);
+    height: 30px;
+    width: 30px;
+    background-image: url(/img/icons/instagram.png);
+    background-size: cover;
+    background-position: center;
 }
 .youtube{
-    height: 34px;
-    transform: translateY(-1px);
+    height: 30px;
+    width: 30px;
+    background-image: url(/img/icons/youtube.png);
+    background-size: cover;
+    background-position: center;
 }
 .search-btn{
     height: 30px;
     width: 30px;
-    filter: invert(100%);
-    background-image: url(/img/search-solid.svg);
+    /* filter: invert(100%); */
+    background-image: url(/img/icons/search.png);
+    background-size: cover;
     cursor: pointer;
 }
 .bars{
-    height: 30px;
-    width: 36px;
-    background-image: url(/img/bars-solid.svg);
-    filter: invert(100%);
+    height: 26px;
+    width: 30px;
+    background-image: url(/img/icons/bars.png);
+    background-size: cover;
+    background-position: center;
+    /* filter: invert(100%); */
     cursor: pointer;
     transform: translateY(-10px);
 }
-.phone:hover,.inst:hover, .youtube:hover{
-    filter: invert(100%) sepia() saturate(10000%) hue-rotate(-49deg);
+.phone:hover{
+    background-image: url(/img/icons/phone-h.png);
+}
+.inst:hover{
+    background-image: url(/img/icons/instagram-h.png);
+} .youtube:hover{
+    background-image: url(/img/icons/youtube-h.png);
 } 
 .banner-bg .a-wrap a:hover{
     background-color: unset;
@@ -352,4 +369,103 @@ section{
     padding: 5px;
     border-radius: 5px;
     margin-left: 5px;
+}
+
+/* models */
+
+.models-wrap{
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+}
+.models-wrap :nth-child(3n){
+    margin-right: 0px !important;
+}
+.models-block{
+    list-style-type: none;
+    float: left;
+    width: 328px;
+    margin-right: 12.5px;
+    margin-top: 12.5px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+    position: relative;
+}
+.discount{
+    position: absolute;
+    background-color: #e04b3b;
+    color: white;
+    border-radius: 0 0 5px 5px;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 24px;
+    padding-top: 10px;
+}
+.discount::after{
+    content: "%";
+    font-family: "Montserrat-Bold";
+    padding: 12px;
+    font-size: 30px;
+}
+.models-block img{
+    width: 80%;
+    margin: 10%;
+}
+.models-block p,h3{
+    margin-left: 24px;
+}
+.models-block h3{
+    font-family: "Montserrat-Bold";
+}
+.models-block span{
+    color: #7c7c7c;
+}
+.models-input{
+    display: flex;
+}
+.models-input :nth-child(5){
+    margin-right: 40px !important;
+}
+.models-input button{
+    font-size: 20px;
+    color: white;
+    background-color: #f19c40;
+    border: 1px solid #f19c40;
+    padding: 8px;
+    border-radius: 5px;
+    transform: translateX(10px);
+}
+.models-input input{
+    width: 140px;
+    padding-left: 12px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 100%;
+    margin-right: 5px;
+}
+.models-input select{
+    margin-right: 5px;
+    outline: none;
+    width: 190px;
+    padding-left: 12px;
+    height: 42px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 100%;
+	-webkit-appearance: none;
+    background: url(/img/arrow.png) no-repeat right;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* .model */
+
+.model-block{
+    width: 976px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 24px;
 }

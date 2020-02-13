@@ -6,19 +6,19 @@ let searchBtn = document.getElementById("searchBtn");
 let searchFlag = false;
 menuBtn.onmouseover = function(event) {
     let target = event.target;
-    target.style.filter = 'invert(100%) sepia() saturate(10000%) hue-rotate(-49deg)';
+    target.style.backgroundImage = 'url(/img/icons/bars-h.png)';
 };
 menuBtn.onmouseout = function(event) {
     let target = event.target;
-    target.style.filter = 'invert(100%)';
+    target.style.backgroundImage = 'url(/img/icons/bars.png)';
 };
 searchBtn.onmouseover = function(event) {
     let target = event.target;
-    target.style.filter = 'invert(100%) sepia() saturate(10000%) hue-rotate(-49deg)';
+    target.style.backgroundImage = 'url(/img/icons/search-h.png)';
 };
 searchBtn.onmouseout = function(event) {
     let target = event.target;
-    target.style.filter = 'invert(100%)';
+    target.style.backgroundImage = 'url(/img/icons/search.png)';
 };
 function openMenu(){
     if (menuFlag == false){
