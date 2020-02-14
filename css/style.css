@@ -273,7 +273,7 @@ section{
 }
 .nav-btn{
     height: 50px;
-    margin-right: 61px;
+    margin-right: 81px;
     transform: translateY(-10px);
     /* position: relative; */
     display: flex;
@@ -294,7 +294,7 @@ section{
     width: 300px;
     padding-left: 50px;
     top: 70px;
-    right: 15.5%;
+    right: 14.3%;
 }
 .menu-a-wrap{
     position: relative;
@@ -545,7 +545,7 @@ section{
 }
 .model-row{
     overflow: hidden;
-    border-bottom: 1px solid #7c7c7c;
+    border-bottom: 1px solid #f4f4f4;
     color: #7c7c7c;
     font-family: "Montserrat";
     font-size: 14px;
@@ -692,4 +692,69 @@ section{
     font-size: 19px;
     font-family: "Montserrat";
     margin-top: 70px;
+}
+
+/* comparison */
+.comparison-wrap{
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 1000px;
+}
+.comparison-wrap h2{
+    font-family: "Montserrat-Bold";
+    font-size: 14px;
+}
+.comparison-wrap h3{
+    font-family: "Montserrat-Bold";
+    font-size: 12px;
+    margin-top: 40px;
+}
+.comparison-wrap p{
+    font-family: "Montserrat";
+    font-size: 12px;
+}
+.gray-bb{
+    border-bottom: 1px solid #f4f4f4;
+}
+.c-top-row, .c-heading-row, .c-categories-list{
+    overflow: hidden;
+    width: 100%;
+}
+.c-col-1{
+    float: left;
+    width: 30%;
+    padding-left: 2%;
+}
+.c-col-2{
+    float: left;
+    width: 17%;
+}
+.item-wrap{
+    position: relative;
+    width: 100%;
+}
+.item-wrap img{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.fav{
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    border-radius: 0 0 5px 5px;
+    background-color: #f4f4f4;
+    top: 0;
+    background-image: url(/img/heart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.fav:hover{
+    background-image: url(/img/heart-active.png);
+}
+.c-categories-list{
+    color: #7c7c7c;
 }
