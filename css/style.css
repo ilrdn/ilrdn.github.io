@@ -20,9 +20,9 @@ body{
     box-sizing: border-box;
 }
 input{outline: none;}
-.full-height{
+/* .full-height{
     height: 100vh;
-}
+} */
 header{
     display: flex;
     justify-content: center;
@@ -665,3 +665,31 @@ section{
  .contacts-right .a-wrap{
     margin-top: 24px;
  }
+
+ /*  about */
+ .about-wrap{
+    overflow: hidden;
+    width: 100%;
+}
+.about-left{
+    float: left;
+    width: 350px;
+    margin-right: 24px;
+}
+.about-left p, .about-left h2{
+   font-size: 15px;
+   font-family: "Montserrat";
+}
+.about-left h2{
+   font-size: 15px;
+   font-family: "Montserrat-Bold";
+}
+.about-right{
+    float: left;
+    width: 650px;
+}
+.about-right p{
+    font-size: 19px;
+    font-family: "Montserrat";
+    margin-top: 70px;
+}
