@@ -29,8 +29,6 @@ header{
     height: 60px;
     width: 100%;
     background-color: black;
-    position: relative;
-    z-index: 9999999;
 }
 .a-wrap{
     position: relative;
@@ -91,6 +89,8 @@ header{
 .a-big-len5{width: 178px;}
 .navigation{
     width: 1024px;
+    position: relative;
+    z-index: 9999999;
 }
 .navigation ul{
     margin-top: 10px;
@@ -193,7 +193,7 @@ section{
     border-radius: 5px;
     color: black !important;
 }
-.fb-wrap :nth-child(2n){
+.fb-wrap :nth-child(2n) .fb-block{
     margin-right: 0px !important;
 }
 .fb-col-1{
@@ -225,7 +225,7 @@ section{
     width: 100%;
     padding: 0;
 }
-.news-wrap :last-child{
+.news-wrap :nth-child(4n) .news-block{
     margin-right: 0px !important;
 }
 .news-block{
@@ -233,6 +233,7 @@ section{
     float: left;
     width: 238px;
     margin-right: 24px;
+    margin-top: 24px;
     border-radius: 5px;
     background-color: white;
     font-size: 14px;
@@ -294,7 +295,7 @@ section{
     width: 300px;
     padding-left: 50px;
     top: 70px;
-    right: 14.3%;
+    right: 0;
 }
 .menu-a-wrap{
     position: relative;
@@ -528,7 +529,7 @@ section{
 }
 .model-block-left img{
     margin: 16px;
-    width: 268px;
+    width: 240px;
 }
 .model-block-right{
     float: left;
