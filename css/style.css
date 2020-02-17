@@ -36,7 +36,7 @@ header{
     height: 40px;
     padding: 2px;
     background-image: linear-gradient(to right, #f19c40, #e04b3b);
-    margin-top: 70px;
+    margin-top: 24px;
     border-radius: 5px;
 }
 .a-wrap a{
@@ -789,4 +789,99 @@ section{
 }
 .news-item p{
     font-family: "Montserrat";
+}
+
+/* swipers */
+
+.swiper-container {
+    width: 100%;
+}
+
+.slider-best-wrap .swiper-slide {
+    width: 1024px !important;
+    overflow: hidden;
+}
+.slider-best-wrap .swiper-slide img{
+    display: block;
+    width: 72%;
+    margin-right: 3%;
+    margin-left: 0;
+    margin-top: 10%;
+    float: left;
+}
+.slider-best-wrap .swiper-slide .slider-best-info{
+    width: 20%;
+    position: relative;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    float: left;
+}
+.slider-best-info .discount{
+    right: 24px;
+    left: unset;
+}
+.slider-timer{
+    color: #7c7c7c;
+    margin-bottom: 24px;
+}
+.slider-car-ctg{
+    color: #7c7c7c;
+    font-size: 13px;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+.slider-car-el{
+    font-size: 15px;
+    margin: 0;
+}
+.slider-car-name{
+    font-family: "Montserrat-Bold";
+    margin: 0;
+}
+.slider-car-oldp{
+    font-size: 18px;
+    margin: 0;
+    margin-top: 24px;
+}
+.slider-car-oldp span{
+    color: #7c7c7c;
+}
+.slider-car-newp{
+    font-family: "Montserrat-Bold";
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+.slider-best-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.slider-best{
+    width: 1024px;
+}
+.swiper-section{
+    position: relative;
+}
+.swiper-button-next, .swiper-button-prev{
+    color: #7c7c7c !important;
+    outline: unset !important;
+}
+.slider-dealer-wrap .swiper-slide{
+    width: 325px !important;
+    background-color: white;
+    border-radius: 5px;
+}
+.slider-dealer-wrap .swiper-slide img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    height: 230px;
+}
+.slider-dealer-wrap .swiper-slide p{
+    font-family: "Montserrat-Bold";
+    margin-left: 24px;
+}
+.slider-dealer{
+    width: 1024px;
 }

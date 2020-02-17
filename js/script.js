@@ -45,4 +45,27 @@ function openSearch(){
 function closeMenu(){
     menu.style.display = "none";
     menuFlag = false;
-}     
+}
+var SwipesBest = new Swiper('.swiper-container', {
+    loop: true,
+    slidesPerView: 1,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+    },
+});  
+var SwipesDealers = new Swiper('.dealers-container', {
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 24,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+    },
+});      
