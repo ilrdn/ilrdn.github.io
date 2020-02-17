@@ -59,7 +59,6 @@ header{
 }
 .a-big{
     font-size: 26px;
-    width: 1024px;
     height: 30px;
     position: absolute;
     padding-bottom: 5px;
@@ -87,6 +86,29 @@ header{
 .a-big-len3{width: 180px;}
 .a-big-len4{width: 194px;}
 .a-big-len5{width: 178px;}
+
+.a-model{
+    font-size: 18px;
+    width: 145px;
+    height: 20px;
+    position: absolute;
+    padding-bottom: 5px;
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #f4f4f4;
+    font-family: "Montserrat-Bold";
+}
+.a-model:hover{
+    border: 0 !important;
+}
+.a-model-wrap{
+    position: relative;
+    height: 27px;
+    background-image: linear-gradient(to right, #f19c40, #e04b3b);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 145px;
+}
+
 .navigation{
     width: 1024px;
     position: relative;
