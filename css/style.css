@@ -790,7 +790,16 @@ section{
 .news-item p{
     font-family: "Montserrat";
 }
-
+/* feedbacks */
+.full-fb-wrap{
+    overflow: hidden;
+    width: 100%;
+}
+.full-fb-wrap img{
+    float: left;
+    width: 25%;
+    margin-right: 24px;
+}
 /* swipers */
 
 .swiper-container {
