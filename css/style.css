@@ -781,3 +781,12 @@ section{
 .c-categories-list{
     color: #7c7c7c;
 }
+/* news */
+.news-item img{
+    width: 50%;
+    margin: 0 24px 12px 0;
+    float: left;
+}
+.news-item p{
+    font-family: "Montserrat";
+}

@@ -41,4 +41,8 @@ function openSearch(){
         search.style.display = "none";
         searchFlag = false;
     }
+}
+function closeMenu(){
+    menu.style.display = "none";
+    menuFlag = false;
 }     
