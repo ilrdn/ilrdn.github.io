@@ -894,3 +894,49 @@ section{
 .slider-dealer{
     width: 1024px;
 }
+
+/* mobile */
+
+@media (max-width: 1023px){
+    .navigation{
+        width: 100%;
+    }
+    .navigation-list{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navigation-list :nth-child(2), .navigation-list :nth-child(3){
+        display: none;
+    }
+    .nav-logo{
+        margin-right: unset;
+    }
+    .bars{
+        transform: translate(-10px,10px);
+    }
+    .menu-open{
+        top: 60px;
+    }
+    .main-block{
+        width: 95%;
+    }
+    .news-block, .models-block{
+        width: unset;
+        margin-right: unset;
+    }
+    .banner-text{
+        width: unset;
+        margin-top: unset;
+    }
+    .about-left, .about-right, .contacts-left, .contacts-right{
+        width: unset;
+    }
+    .models-input {
+        display: unset;
+    }
+    .models-input input,.models-input button,.models-input select{
+        margin-top: 12px;
+        width: 100%;
+        padding-left: 3px;
+    }
+}
