@@ -59,7 +59,7 @@ var SwipesBest = new Swiper('.swiper-container', {
 });  
 var SwipesDealers = new Swiper('.dealers-container', {
     loop: true,
-    slidesPerView: 1,
+    slidesPerView: 3,
     spaceBetween: 24,
     navigation: {
         nextEl: '.swiper-button-next',

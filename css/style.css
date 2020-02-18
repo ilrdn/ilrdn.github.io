@@ -953,4 +953,17 @@ section{
     .dn{
         display: none !important;
     }
+    .fb-block{
+        width: 100%;
+        height: unset;
+        float: unset;
+    }
+    .fb-col-1{
+        float: unset;
+        width: 80%;
+        height: unset;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 24px;
+    }
 }
