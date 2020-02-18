@@ -67,6 +67,7 @@ var SwipesMobile = new Swiper('.mobile-container', {
     loop: true,
     slidesPerView: 1,
     pagination: {
-        el: '.swiper-pagination',
-    },
+		el: '.swiper-pagination',
+		clickable: true,
+	},
 });      
