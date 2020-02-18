@@ -933,10 +933,11 @@ section{
     }
     .models-input {
         display: unset;
+        width: 100%;
     }
     .models-input input,.models-input button,.models-input select{
         margin-top: 12px;
-        width: 100%;
-        padding-left: 3px;
+        width: 97%;
+        padding-left: 3%;
     }
 }
