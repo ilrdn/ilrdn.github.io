@@ -53,9 +53,6 @@ var SwipesBest = new Swiper('.swiper-container', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-    pagination: {
-        el: '.swiper-pagination',
-    },
 });  
 var SwipesDealers = new Swiper('.dealers-container', {
     loop: true,
@@ -65,6 +62,10 @@ var SwipesDealers = new Swiper('.dealers-container', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
+}); 
+var SwipesMobile = new Swiper('.mobile-container', {
+    loop: true,
+    slidesPerView: 1,
     pagination: {
         el: '.swiper-pagination',
     },

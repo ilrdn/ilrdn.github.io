@@ -894,8 +894,51 @@ section{
 .slider-dealer{
     width: 1024px;
 }
+/* .slider-mobile-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.slider-mobile-wrap .swiper-slide{
+    background-color: red;
+} */
+.pag-wrap{
+    display: flex;
+    justify-content: center;
+}
+.slider-mobile .swiper-slide{
+    justify-content: center;
+}
+.m-slide-best{
+    width: 90%;
+    margin-left: 5%;
+}
+.m-slide-best img{
+    width: 100%;
+}
+.m-slide-best p{
+    font-family: "Montserrat-Bold";
+    font-size: 20px;
+}
+.m-slide-best span{
+    text-decoration: line-through;
+}
+.m-slide-dealer{
+    width: 90%;
+    margin-left: 5%;
+}
+.m-slide-dealer img{
+    width: 100%;
+}
+.m-slide-dealer p{
+    font-family: "Montserrat-Bold";
+    font-size: 20px;
+}
 
 /* mobile */
+.db{
+    display: none;
+}
 @media (max-width: 1023px){
     body{
         overflow-x: hidden;
@@ -918,6 +961,8 @@ section{
     }
     .menu-open{
         top: 60px;
+        width: 90%;
+        padding-left: 10%;
     }
     .main-block{
         width: 95%;
@@ -969,7 +1014,5 @@ section{
         margin-right: auto;
         margin-top: 24px;
     }
-    .contacts-right input{
-        width: 94%;
-    }
+    
 }
