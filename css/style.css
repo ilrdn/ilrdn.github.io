@@ -1017,7 +1017,6 @@ section{
     .swiper-pagination-bullet-active{
         background: black !important;
         margin: 3px;
-        outline: none;
     }
     .swiper-pagination-bullet{
         margin: 3px;
