@@ -898,6 +898,9 @@ section{
 /* mobile */
 
 @media (max-width: 1023px){
+    body{
+        overflow-x: hidden;
+    }
     .navigation{
         width: 100%;
     }
