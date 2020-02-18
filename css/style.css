@@ -1014,5 +1014,11 @@ section{
         margin-right: auto;
         margin-top: 24px;
     }
-    
+    .swiper-pagination-bullet-active{
+        background: black !important;
+        margin: 3px;
+    }
+    .swiper-pagination-bullet{
+        margin: 3px;
+    }
 }
