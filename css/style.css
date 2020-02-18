@@ -953,6 +953,9 @@ section{
     .dn{
         display: none !important;
     }
+    .db{
+        display: block;
+    }
     .fb-block{
         width: 100%;
         height: unset;
@@ -965,5 +968,8 @@ section{
         margin-left: auto;
         margin-right: auto;
         margin-top: 24px;
+    }
+    .contacts-right input{
+        width: 94px;
     }
 }
