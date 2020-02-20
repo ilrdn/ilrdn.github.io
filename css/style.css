@@ -964,18 +964,18 @@ section{
     position: absolute;
     top: 0;
     left: 0;
-    width: 32%;
+    width: 22%;
     padding-right: 3%;
     color: #f19c40;
     margin: 0;
     font-family: "Montserrat";
-    font-size: 260px;
+    font-size: 160px;
 }
 .service{
     right: 0;
     top: 0;
     position: absolute;
-    width: 62%;
+    width: 72%;
     padding-right: 3%;
 }
 .service h2{
@@ -1083,13 +1083,13 @@ section{
     .services-item span{
         position: unset;
         float: left;
-        width: 31%;
-        font-size: 150px;
+        width: 26%;
+        font-size: 120px;
     }
     .service{
         position: unset;
         float: left;
-        width: 63%;
+        width: 68%;
     }
     .service h2 {
         font-size: 18px;
