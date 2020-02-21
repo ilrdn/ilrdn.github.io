@@ -994,6 +994,35 @@ section{
     padding: 0;
 }
 
+/* dealers */
+.dealers-list{
+    width: 100%;
+    overflow: hidden;
+}
+.dealer{
+    width: 100%;
+    margin-top: 24px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.dealer img{
+    width: 500px;
+    display: block;
+    float: left;
+    margin-right: 24px;
+}
+.dealer-text{
+    float: left;
+    width: 500px;
+}
+.dealer-text h2{
+    font-family: "Montserrat-Bold";
+}
+.dealer-text p{
+    font-family: "Montserrat";
+}
+
 /* mobile */
 .db{
     display: none;
