@@ -1046,6 +1046,7 @@ section{
     border-radius: 15px;
     background-color: #f19c40;
     animation: animate linear 2s infinite;
+    -webkit-animation: animate linear 2s infinite;
   }
   
   .circle:nth-child(1) {
