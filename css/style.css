@@ -1158,7 +1158,7 @@ section{
         font-size: 10px;
         width: 100%;
     }
-    .comparison-wrap{
+    .scroll-wrap{
         overflow-x: scroll;
     }
 }
