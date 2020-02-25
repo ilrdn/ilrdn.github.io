@@ -1,3 +1,8 @@
+function sayHi() {
+    document.getElementById("arrow").style.display = "none";
+}
+setTimeout(sayHi, 2000);
+
 let menu = document.getElementById("menu");
 let menuBtn = document.getElementById("menuBtn");
 let menuFlag = false;
