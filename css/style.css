@@ -1176,8 +1176,11 @@ section{
     width: 15px;
     border-radius: 15px;
     background-color: #f19c40;
-    animation: animate linear 2s infinite;
-    -webkit-animation: animate linear 2s infinite;
+    -webkit-animation-name: animate;
+    -webkit-animation-duration: 40s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+   /*  animation: animate linear 2s infinite; */
   }
   
   .circle:nth-child(1) {
