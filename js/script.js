@@ -1,7 +1,7 @@
-function sayHi() {
+function arrow() {
     document.getElementById("arrow").style.display = "none";
 }
-setTimeout(sayHi, 2000);
+setTimeout(arrow, 3000);
 
 let menu = document.getElementById("menu");
 let menuBtn = document.getElementById("menuBtn");
