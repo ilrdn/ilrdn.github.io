@@ -1233,12 +1233,15 @@ section{
   }
   
   @keyframes animate {
-    0%, 100% {
+    /* 0%, 100% {
       background-color: #f19c40;
     }
     50% {
       background-color: #e04b3b;
-    }
+    } */
+    0% { background-color: #f19c40; }
+    50% { background-color: #e04b3b; }
+    100% { background-color: #f19c40; }
   }
   .c-col-1 {
       width: 20%;
