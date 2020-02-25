@@ -439,6 +439,11 @@ section{
     padding: 5px;
     border-radius: 5px;
     margin-left: 5px;
+    cursor: pointer;
+}
+.search-block a:hover{
+    color: #f19c40;
+    background-color: white;
 }
 
 /* models */
@@ -507,6 +512,11 @@ section{
     padding: 8px;
     border-radius: 5px;
     font-family: "Montserrat";
+    cursor: pointer;
+}
+.models-input button:hover{
+    color: #f19c40;
+    background-color: white;
 }
 .models-input input{
     width: 140px;
@@ -1132,5 +1142,20 @@ section{
     }
     .service p {
         font-size: 14px;
+    }
+    .model-block{
+        padding: unset;
+        width: 100%;
+        padding-top: 24px;
+    }
+    .model-block-right{
+        float: unset;
+        font-size: 10px;
+        width: 100%;
+    }
+    .model-block-left{
+        float: unset;
+        font-size: 10px;
+        width: 100%;
     }
 }
