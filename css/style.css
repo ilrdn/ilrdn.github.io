@@ -1176,6 +1176,7 @@ section{
     width: 15px;
     border-radius: 15px;
     background-color: #f19c40;
+    z-index: 9999999;
     /* -webkit-animation-name: animate;
     -webkit-animation-duration: 40s;
     -webkit-animation-iteration-count: infinite;
