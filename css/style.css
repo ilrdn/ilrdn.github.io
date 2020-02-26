@@ -1192,66 +1192,66 @@ section{
   }
   
   .circle:nth-child(2) {
+    transform: translate(18px,13px);
     animation-delay: -1.1s;
     -ms-animation-delay: -1.1s;
     -webkit-animation-delay: -1.1s;
-    transform: translate(18px,13px);
   }
   
   .circle:nth-child(3) {
+    transform: translate(35px,25px);
     animation-delay: -1.3s;
     -ms-animation-delay: -1.3s;
     -webkit-animation-delay: -1.3s;
-    transform: translate(35px,25px);
   }
   
   .circle:nth-child(4) {
+    transform: translate(18px,38px);
     animation-delay: -1.1s;
     -ms-animation-delay: -1.1s;
     -webkit-animation-delay: -1.1s;
-    transform: translate(18px,38px);
   }
   
   .circle:nth-child(5) {
+    transform: translate(0px, 50px);
     animation-delay: -0.9s;
     -ms-animation-delay: -0.9s;
     -webkit-animation-delay: -0.9s;
-    transform: translate(0px, 50px);
   }
   
   .circle:nth-child(6) {
+    transform: translate(0,25px);
     animation-delay: -0.9s;
     -ms-animation-delay: -0.9s;
     -webkit-animation-delay: -0.9s;
-    transform: translate(0,25px);
   }
   
   .circle:nth-child(7) {
+    transform: translate(-20px,25px);
     animation-delay: -0.7s;
     -ms-animation-delay: -0.7s;
     -webkit-animation-delay: -0.7s;
-    transform: translate(-20px,25px);
   }
   
   .circle:nth-child(8) {
+    transform: translate(-40px,25px);
     animation-delay: -0.5s;
     -ms-animation-delay: -0.5s;
     -webkit-animation-delay: -0.5s;
-    transform: translate(-40px,25px);
   }
   
   .circle:nth-child(9) {
+    transform: translate(-60px,25px);
     animation-delay: -0.3s;
     -ms-animation-delay: -0.3s;
     -webkit-animation-delay: -0.3s;
-    transform: translate(-60px,25px);
   }
   
   .circle:nth-child(10) {
+    transform: translate(-80px,25px);
     animation-delay: -0.1s;
     -ms-animation-delay: -0.1s;
     -webkit-animation-delay: -0.1s;
-    transform: translate(-80px,25px);
   }
   
   @keyframes animate {
