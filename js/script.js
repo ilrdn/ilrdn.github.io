@@ -1,7 +1,7 @@
-/* function arrow() {
+function arrow() {
     document.getElementById("arrow").style.display = "none";
 }
-setTimeout(arrow, 3000); */
+setTimeout(arrow, 3000);
 
 let menu = document.getElementById("menu");
 let menuBtn = document.getElementById("menuBtn");
