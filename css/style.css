@@ -1094,8 +1094,8 @@ section{
     }
     .models-input input{
         margin-top: 12px;
-        width: 90.7vw;
-        padding-left: 3.3vw;
+        width: 97%;
+        padding-left: 3%;
     }
     .dn{
         display: none !important;
