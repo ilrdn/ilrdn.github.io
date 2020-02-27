@@ -502,7 +502,7 @@ section{
     margin-bottom: 24px;
 }
 .models-input :nth-child(5){
-    margin-right: 40px !important;
+    margin-right: 40px;
 }
 .models-input button{
     font-size: 20px;
@@ -1083,6 +1083,7 @@ section{
     .models-input {
         display: block;
         width: 100%;
+        margin-bottom: unset;
     }
     .models-input button{
         margin-top: 12px;
@@ -1306,5 +1307,8 @@ section{
     font-size: 12px;
     transform: translateY(12px);
     color: black;
+  }
+  .models-input :nth-child(5){
+      margin-right: 0;
   }
 }
