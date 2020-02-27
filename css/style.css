@@ -1096,6 +1096,7 @@ section{
         margin-top: 12px;
         width: 97%;
         padding-left: 3%;
+        margin-right: 0;
     }
     .dn{
         display: none !important;
