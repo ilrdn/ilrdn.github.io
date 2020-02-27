@@ -631,6 +631,9 @@ section{
     height: 0;
     width: 0;
   }
+  .container span{
+    display: none;
+  }
   .checkmark {
     position: absolute;
     top: 0;
@@ -1091,7 +1094,7 @@ section{
     }
     .models-input input{
         margin-top: 12px;
-        width: 95%;
+        width: 97%;
         padding-left: 3%;
     }
     .dn{
@@ -1282,5 +1285,25 @@ section{
   }
   .logo{
       margin-left: 2.5%;
+  }
+  .first-row{
+      display: none;
+  }
+  .model-col-1, .model-col-2{
+      width: 100%;
+      text-align: left !important;
+      margin-top: 12px;
+      font-size: 12px !important;
+      padding-left: 24px;
+      padding-bottom: 12px;
+  }
+  .container{
+    transform: translateX(-48px);
+  }
+  .container span{
+    display: block;
+    font-size: 12px;
+    transform: translateY(12px);
+    color: black;
   }
 }
