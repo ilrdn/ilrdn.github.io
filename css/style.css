@@ -1048,6 +1048,9 @@ section{
     .navigation{
         width: 100%;
     }
+    .full-height{
+        height: unset;
+    } 
     .navigation-list{
         display: flex;
         justify-content: space-between;
