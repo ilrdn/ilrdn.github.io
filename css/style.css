@@ -1323,3 +1323,8 @@ section{
         width: 95%;
     }
 }
+@media (min-width: 1441px){
+    .full-h-model{
+        height: 70vh;
+    } 
+}
