@@ -1315,7 +1315,7 @@ section{
       width: 100%;
   }
 }
-@media (max-width: 350px){
+@media (max-width: 400px){
     .models-input input{
         width: 95.5%;
     }
