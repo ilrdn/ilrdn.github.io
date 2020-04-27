@@ -1,8 +1,22 @@
+h1{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 110%;
+}
 h3{
     font-family: Fira Sans;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
+    line-height: 110%;
+}
+h4{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
     line-height: 110%;
 }
 body {
@@ -56,6 +70,43 @@ header .container{
     height: 320px;
     background: linear-gradient(91.02deg, #1A1E21 0.24%, rgba(26, 30, 33, 0.5) 47.94%, rgba(26, 30, 33, 0) 99.78%);
 }
+.banner-text{
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.banner-text h1{
+    color: #FB8C00;
+}
+.banner-text h3{
+    color: white;
+}
+.banner-text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #F2F4F8;
+}
+.banner-wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+.banner-btn{
+    width: 144px;
+    height: 30px;
+    background: #8E24AA;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.banner-btn span{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
 .heading{
     display: flex;
     margin-top: 102px;
@@ -78,6 +129,7 @@ header .container{
     overflow: hidden;
 }
 .offer{
+    position: relative;
     float: left;
     background: #1A1E21;
     border-radius: 4px;
@@ -86,11 +138,37 @@ header .container{
     margin-right: 24px;
     margin-top: 24px;
 }
+.offer-b1{
+    position: absolute;
+    width: 137px;
+    height: 137px;
+    top: 23px;
+    left: 24px;
+    border-radius: 70px;
+    background: #202529;
+    border: 1px solid #373D42;
+}
+.offer-b2{
+    position: absolute;
+    top: 5px;
+    left: 205px;
+    color: #D5D9E0;
+    list-style-image: url(/img/icons/Ellipse\ 1.svg);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+}
+.offer-b2 li{
+    margin-top: 30px !important;
+}
 .offer-b3{
-    position: relative;
+    position: absolute;
     top: 184px;
     background: #373D42;
     height: 56px;
+    width: 100%;
     border-radius: 0 0 4px 4px;
 }
 .mp-3s :nth-child(even){
@@ -107,17 +185,52 @@ header .container{
     justify-content: space-between;
 }
 .best{
+    position: relative;
     background: #1A1E21;
     border-radius: 4px;
     width: 275px;
     height: 387px;
+    cursor: pointer;
+}
+.best-b1{
+    position: absolute;
+    top: 88px;
+    left: 88px;
+    width: 100px;
+    height: 118px;
+}
+.best-b2{
+    position: absolute;
+    height: 40px;
+    left: 16px;
+    bottom: 95px;
+    color: #D5D9E0;
 }
 .best-b3{
-    position: relative;
+    position: absolute;
     top: 331px;
     background: #373D42;
-    height: 56px;
+    background-image: url(/img/icons/Path\ 94.svg);
+    background-position: 254px;
+    background-repeat: no-repeat;
+    height: 39px;
+    padding-top: 17px;
+    width: 100%;
     border-radius: 0 0 4px 4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+.best-b3-old{
+    font-size: 13px;
+    color: #B9BFC7;
+    text-decoration-line: line-through;
+    margin-left: 16px;
+}
+.best-b3-new{
+    font-size: 28px;
+    color: white;
 }
 
 .mp-6s{
@@ -142,4 +255,7 @@ header .container{
     height: 56px;
     border-radius: 56px;
     background: #8E24AA;
+    background-image: url(/img/icons/Path\ 17.svg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
