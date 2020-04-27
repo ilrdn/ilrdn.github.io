@@ -67,14 +67,68 @@ header .container{
 .container {
     width: 1170px;
 }
-.gname{
-    margin-top: 30px;
+.h-game-wrap{
+    display: flex;
     color: #039BE5;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 140%;
+    height: 32px;
+    width: 250px;
+    background-image: url(/img/icons/arrowd.svg);
+    background-repeat: no-repeat;
+    background-position: 230px;
+    margin-top: 24px;
+}
+.h-game-wrap img{
+    width: 32px;
+    height: 32px;
+    border-radius: 39px;
+    border: 1px solid #697077;
+    margin-right: 8px;
+}
+.h-game-wrap h5{
+    margin-top: 7px;
+}
+.h-space{
+    height: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 27px;
+    border: 1px solid #373D42;
+}
+.h-center{
+    width: 690px;
+    display: flex;
+    justify-content: space-between;
+}
+.h-cl{
+    color: #B9BFC7;
+    margin-top: 14px;
+}
+.h-cl h5{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.h-cc{
+    width: 260px;
+    background-image: url(/img/icons/logo.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.h-cc img{
+    display: block;
+    margin-top: 26px;
+    margin-left: 50px;
+}
+.h-cc h5{
+    margin-top: 0;
+    margin-left: 50px;
+    color: #9FA5AD;
+}
+.h-cr{
+    margin-top: 17px;
+    width: 253px;
+    height: 40px;
+    background: #202529;
+    border-radius: 38px;
 }
 .mp-1s{
     background: #1A1E21;
@@ -162,6 +216,7 @@ header .container{
     height: 240px;
     margin-right: 24px;
     margin-top: 24px;
+    cursor: pointer;
 }
 .offer-b1{
     position: absolute;
@@ -203,6 +258,11 @@ header .container{
 }
 .offer-b3 h4{
     color: #F2F4F8;
+    margin-left: 16px;
+    margin-top: 9px !important;
+}
+.offer-b3 h4 .cost-old{
+    margin-left: 90px;
 }
 .mp-3s :nth-child(even){
     margin-right: 0;
