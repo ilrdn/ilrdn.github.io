@@ -19,6 +19,27 @@ h4{
     font-size: 18px;
     line-height: 110%;
 }
+h5{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+}
+h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+}
+p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+}
 body {
     box-sizing: border-box;
     border: 0;
@@ -30,7 +51,7 @@ body {
 /*     filter: blur(10px);
     -webkit-filter: blur(10px); */
 }
-header, footer, section{
+header, section{
     display: flex;
     justify-content: center;
 }
@@ -71,12 +92,13 @@ header .container{
     background: linear-gradient(91.02deg, #1A1E21 0.24%, rgba(26, 30, 33, 0.5) 47.94%, rgba(26, 30, 33, 0) 99.78%);
 }
 .banner-text{
-    margin-top: 30px;
+    margin-top: 70px;
     margin-left: 120px;
     margin-right: 120px;
 }
 .banner-text h1{
     color: #FB8C00;
+    margin: 0;
 }
 .banner-text h3{
     color: white;
@@ -106,6 +128,9 @@ header .container{
     margin-top: 10px;
     margin-left: 20px;
     padding-top: 10px;
+}
+.btn-after{
+    margin-top: 10px;
 }
 .heading{
     display: flex;
@@ -148,6 +173,11 @@ header .container{
     background: #202529;
     border: 1px solid #373D42;
 }
+.offer-b1 img{
+    display: block;
+    margin: 36px !important;
+    width: 65px;
+}
 .offer-b2{
     position: absolute;
     top: 5px;
@@ -170,6 +200,9 @@ header .container{
     height: 56px;
     width: 100%;
     border-radius: 0 0 4px 4px;
+}
+.offer-b3 h4{
+    color: #F2F4F8;
 }
 .mp-3s :nth-child(even){
     margin-right: 0;
@@ -217,20 +250,24 @@ header .container{
     padding-top: 17px;
     width: 100%;
     border-radius: 0 0 4px 4px;
+}
+.cost-old{
+    font-size: 13px;
+    color: #B9BFC7;
+    text-decoration-line: line-through;
+    margin-left: 16px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
 }
-.best-b3-old{
-    font-size: 13px;
-    color: #B9BFC7;
-    text-decoration-line: line-through;
-    margin-left: 16px;
-}
-.best-b3-new{
+.cost-new{
     font-size: 28px;
     color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
 }
 
 .mp-6s{
@@ -258,4 +295,55 @@ header .container{
     background-image: url(/img/icons/Path\ 17.svg);
     background-position: center;
     background-repeat: no-repeat;
+}
+.text-block{
+    width: 772px;
+}
+.text-block h1{
+    color: #F2F4F8;
+}
+.text-block p{
+    color: #F2F4F8;
+}
+.text-block h3{
+    color: #F2F4F8;
+}
+.text-block h5{
+    color: #039BE5;;
+}
+.f1{
+    height: 96px;
+    padding: 24px;
+    background: #1A1E21;
+    border: 1px solid #8E24AA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 76px;
+    margin-bottom: 32px;
+}
+.f2{
+    display: flex;
+    justify-content: space-between;
+}
+.f2-col{
+    width: 275px;
+    color: #F2F4F8;
+}
+.f2-col h4{
+    width: 100%;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #8E24AA;
+}
+.f2-col ul{
+    padding: 0;
+}
+.f2-col li{
+    list-style-type: none;
+}
+.f3{
+    border-top: 1px solid #B9BFC7;
+    color: #F2F4F8;
+}
+.f3 h6{
+    text-align: center;
 }
