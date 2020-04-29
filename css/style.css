@@ -5,6 +5,13 @@ h1{
     font-size: 48px;
     line-height: 110%;
 }
+h2{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 110%;
+}
 h3{
     font-family: Fira Sans;
     font-style: normal;
@@ -45,15 +52,16 @@ body {
     border: 0;
     margin: 0;
     padding: 0;
-    background-image: url(/img/bg.jpg);
+    background-image: url(/img/BG.svg);
     background-position: center;
-    background-size: cover;
+    /* background-size: cover; */
 /*     filter: blur(10px);
     -webkit-filter: blur(10px); */
 }
 header, section{
     display: flex;
     justify-content: center;
+    background: rgba(26, 30, 33, 0.8);
 }
 header {
     background: #1A1E21;
@@ -447,4 +455,30 @@ header .container{
 }
 .f3 h6{
     text-align: center;
+}
+.cooperation{
+    width: 772px;
+    list-style-image: url(/img/icons/Ellipse\ 1.svg);
+}
+.cooperation h1, .cooperation h2, .cooperation h3, .cooperation h4{
+    color: #F2F4F8;
+}
+.cooperation p{
+    color: #D5D9E0;
+}
+.cooperation img{
+    width: 100%;
+}
+.cooperation ul{
+    padding: unset;
+    padding-left: 12px;
+}
+.cooperation li{
+    margin-top: 8px;
+}
+.coop-or{
+    margin-top: 32px;
+    padding-left: 24px;
+    border-left: 8px solid #FB8C00;
+    border-radius: 8px;
 }
