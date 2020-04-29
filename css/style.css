@@ -695,3 +695,33 @@ header .container{
     margin-top: 3px;
     margin-left: 2px;
 }
+.about-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 32px;
+}
+.about-row img{
+    width: 572px;
+}
+.about-col{
+    width: 557px;
+}
+.about-col h2{
+    color: #F2F4F8;
+}
+.about-col p{
+    color: #D5D9E0;
+}
+.about-last{
+    display: flex;
+    justify-content: center;
+    height: 368px;
+    margin-top: 72px;
+    background: linear-gradient(107.52deg, rgba(26, 30, 33, 0.8) 0%, rgba(55, 61, 66, 0.8) 100%);
+}
+.about-last-text{
+    width: 557px;
+    height: 172px;
+    margin-top: 72px;
+}
