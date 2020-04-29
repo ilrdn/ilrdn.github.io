@@ -89,8 +89,8 @@ header .container{
 }
 .h-space{
     height: 24px;
-    margin-left: 16px;
-    margin-right: 16px;
+    /* margin-left: 6px;
+    margin-right: 16px; */
     margin-top: 27px;
     border: 1px solid #373D42;
 }
@@ -129,6 +129,47 @@ header .container{
     height: 40px;
     background: #202529;
     border-radius: 38px;
+}
+.h-search{
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/icons/search.svg);
+    margin-top: 29px;
+}
+.h-flag{
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/icons/EU.svg);
+    margin-top: 29px;
+}
+.h-cart{
+    position: relative;
+    width: 90px;
+    height: 42px;
+    margin-top: 16px;
+    background-image: url(/img/icons/Cart.svg);
+    background-repeat: no-repeat;
+    background-position-y: 11px;
+    background-position-x: 45px;
+
+}
+.cart-quantity{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: #8E24AA;
+    border-radius: 39px;
+}
+.cart-cost{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #F2F4F8;
+}
+.cart-cost h5{
+    margin: 0;
 }
 .mp-1s{
     background: #1A1E21;
