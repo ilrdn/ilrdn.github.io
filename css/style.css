@@ -849,3 +849,23 @@ header .container{
     color: #9FA5AD;
     margin-left: 8px;
 }
+.news-wrap{
+    overflow: hidden;
+}
+.news-wrap :nth-child(3n) .news-block{
+    margin-right: 0px !important;
+}
+.news-block{
+    list-style-type: none;
+    float: left;
+    width: 374px;
+    height: 354px;
+    margin-right: 24px;
+    margin-top: 32px;
+}
+.news-block img{
+    width: 100%;
+}
+.news-block h3, .news-block p{
+    color: #F2F4F8;
+}
