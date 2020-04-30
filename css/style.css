@@ -869,3 +869,18 @@ header .container{
 .news-block h3, .news-block p{
     color: #F2F4F8;
 }
+.serv-wrap{
+    overflow: hidden;
+}
+.serv-wrap h1{
+    color: #F2F4F8;
+}
+.serv-wrap :nth-child(4n) .serv-block{
+    margin-right: 0px !important;
+}
+.serv-block{
+    list-style-type: none;
+    float: left;
+    margin-right: 23.3px;
+    margin-top: 32px;
+}
