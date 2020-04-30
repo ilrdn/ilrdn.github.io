@@ -725,3 +725,127 @@ header .container{
     height: 172px;
     margin-top: 72px;
 }
+.order-wrap h1{
+    text-align: center;
+    color: #F2F4F8;
+}
+.order{
+    overflow: hidden;
+    color: #F2F4F8;
+}
+.order-left{
+    float: left;
+    width: 475px;
+    margin-right: 120px;
+}
+.order-right{
+    float: left;
+    width: 575px;
+}
+.order-input{
+    margin-bottom: 16px;
+}
+.order-input-w1{
+    width: 275px;
+}
+.order-input-w2{
+    width: 474px;
+}
+.order-input-w1 input{
+    width: 259px;
+}
+.order-input-w2 input{
+    width: 458px;
+}
+.order input{
+    padding: 0;
+    padding-top: 12px;
+    padding-left: 16px;
+    height: 28px;
+    background-color: #202529;
+    border: 1px solid #373D42;
+    border-radius: 4px;
+    outline: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+    color: #F2F4F8;
+}
+.error{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 120%;
+    text-align: right;
+    color: #EC2B2D;
+}
+.error input{
+    border: 1px solid #EC2B2D !important;
+}
+.payment{
+    width: 197px;
+    height: 88px;
+    background: #1A1E21;
+    border: 1px solid #373D42;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    background-position: 70px;
+    background-repeat: no-repeat;
+}
+.order-right, .co-btn{
+    position: unset;
+}
+.order-right, .co-btn h5{
+    padding-top: 10px;
+}
+.order-headers{
+    display: flex;
+    border-bottom: 1px solid #9FA5AD;
+}
+.order-w1{
+    width: 343px;
+    margin-right: 32px;
+}
+.order-w2{
+    width: 64px;
+    margin-right: 32px;
+}
+.order-w3{
+    width: 104px;
+}
+.order-headers p, .order-total p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #F2F4F8;
+}
+.order-item{
+    display: flex;
+    border-bottom: 1px solid #9FA5AD;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.order-item .order-w3 h5{
+    text-align: right;
+}
+.order-cost h3{
+    margin: 0;
+    color: #FB8C00;
+}
+.order-cost h3 span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-decoration-line: line-through;
+    color: #9FA5AD;
+    margin-left: 8px;
+}
